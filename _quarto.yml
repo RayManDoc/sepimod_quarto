@@ -1,5 +1,6 @@
 project:
   type: website
+  Output-dir: docs
 
 website:
   title: "SEPIMOD"

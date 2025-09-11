@@ -1,0 +1,81 @@
+---
+title: "Research"
+---
+
+# Projects:
+
+1.  A spatial SEIR model for COVID-19 in South Africa. (Fabris-Rotelli et al, A Spatial SEIR Model for COVID-19 in South Africa, Journal of Data Science, Statistics and Visualisation, 2022).
+
+2.  A study on mobility data available publicly and the representativeness of this data at different spatial resolutions - MSc student Arminn Potgieter (Potgieter et al, Modelling representative population mobility for COVID-19 spatial transmission in South Africa, Frontiers in Big Data, section Medicine and PublicHealth, volume 4, article 718351, published 22 October 2021). Further research is investigating the development of a small area estimation model for created of high resolution mobility data from low resolution data. A UP MSc student, Dr Marie Vogel, 2022 - 2024 is working on this.
+
+3.  A stratified spatial SEIR model including co-morbidities and age structures is currently under review (2024).
+
+4.  A spatial SEIR model with an added vaccination compartment - MSc student Claudia Dresselhaus 2021-2022. (Claudia Dresselhaus, Inger Fabris-Rotelli, Raeesa Manjoo-Docrat, Warren Brettenny, Jenny Holloway, Nada Abdelatif, Renate Thiede, Pravesh Debba, Nontembeko Dudeni-Tlhone, A spatial model with vaccinations for COVID-19 in South Africa, Spatial Statistics, November 2023.)
+
+5.  A spatial LDA topic model for COVID-19 sentiment analysis - UP MSc student Gandhi Jafta 2022-2023. Draft paper to be submitted in 2024.
+
+6.  Wastewater-based epidemiology 2023 onwards. The research investigates new approaches for spatial modelling on multiple spatial lattice data structures. The work is also aimed at being extended to monitor for additional diseases and compounds in wastewater, namely endocrine disruptors, antibiotics, painkillers and anti-inflammatories and psychoactive drugs, as well as general water quality checking. This is all with the overarching aim of providing mechanisms for early warning detectors through wastewater-based epidemiology. Two 2023 honours students Ruth Riba (UP) and Miguel Torres (WITS) worked on this. Miguel Torres is doing his MSc in 2024. A PhD student Michelle de Klerk is also working on spatial regression on disjoint lattice domains.
+
+7.  A climate and disease seminar series and research direction: October 2022 - December 2023.
+
+# Publications:
+
+1.  A Potgieter, Inger Fabris-Rotelli, Z Kimmie, N Dudeni-Tlhone, J Holloway, C Janse Van Rensburg, R Thiede, P Debba, R Manjoo-Docrat, N Abdelatif, S Makhanya, [Modelling representative population mobility for COVID-19 spatial transmission in South Africa](https://doi.org/10.3389/fdata.2021.718351), Frontiers in Big Data, section Medicine and Public Health, volume 4, article 718351, published 22 October 2021. 
+
+2.  Renate Thiede, Nada Abdelatif, Inger Fabris-Rotelli, Raeesa Manjoo-Docrat, Jennifer Holloway, Charl Janse van Rensburg, Pravesh Debba, Nontembeko Dudeni-Tlhone, Zaid Kimmie, and Alize le Roux. "[Global Variation in the Basic Reproduction Number of COVID-19](https://www.academia.edu/50139162/Global_Variation_in_the_Basic_Reproduction_Number_of_COVID_19)." Academia Letters, n.d. doi:10.20935/AL1956. 2021.
+
+3.  Inger Fabris-Rotelli, Jenny Holloway, Zaid Kimmie, Sally Archibald, Pravesh Debba, Raeesa Manjoo-Docrat, Alize le Roux, Nontembeko Dudeni-Tlhone, Charl Janse van Rensburg, Renate Thiede, Nada Abdelatif, Arminn Potgieter, Sibusisiwe Makhanya, [A Spatial SEIR Model for COVID-19 in South Africa](https://jdssv.org/index.php/jdssv/article/view/46), Journal of Data Science, Statistics and Visualisation, 2(7), 14--45., 2022. 
+
+4.  Claudia Dresselhaus, Inger Fabris-Rotelli, Raeesa Manjoo-Docrat, Warren Brettenny, Jenny Holloway, Nada Abdelatif, Renate Thiede, Pravesh Debba, Nontembeko Dudeni-Tlhone, [A spatial model with vaccinations for COVID-19 in South Africa](https://www.sciencedirect.com/science/article/pii/S2211675323000672), Spatial Statistics, November 2023. 
+
+5.  Manjoo-Docrat, R., Abdelatif, N., Holloway, J., Dudeni-Tlhone, N., Dresselhaus, C., Mbayise, E., van Rensburg, C.J., Fabris-Rotelli, I., Debba, P. and Makhanya, S., 2025. [Spatial age-stratified epidemiological model with applications to South African COVID-19 pandemic.](https://www.cell.com/heliyon/fulltext/S2405-8440(25)01552-X) *Heliyon*, *11*(11).
+
+# Funding
+
+1.  This research is funded by Canada’s International Development Research Centre (IDRC) (Grant No. 109559-001).
+
+2.  This work is based on research supported in part by the National Research Foundation of South Africa (Grant Number 137785 and COE-MaSS Grant Number #2022-086-LIF-COVID-19, #2024-025-LIF-Water Surveillance).
+
+# Students
+
+**University of Pretoria**
+
+*Honours*
+
+[Ruth Riba (2023)](https://www.linkedin.com/in/ruth-riba-459666228/)
+
+[Ciara Klinkert (2024)](https://www.linkedin.com/in/ciara-seymour-klinkert-729951321/)
+
+[Saalihah Mohungoo(2024)](https://www.linkedin.com/in/saalihah-mohungoo-9140b3284/)
+
+*Masters*
+
+[Arminn Potgieter (2020-2021)](https://www.linkedin.com/in/arminn-potgieter/)
+
+[Claudia Dresselhaus (2021-2022)](https://www.linkedin.com/in/claudia-dresselhaus-628737182/)
+
+[Dr Marie Vogel (2022-2025)](https://www.linkedin.com/in/marie-vogel-jacobs-a48558237/)
+
+[Gandhi Jafta (2022-2023)](https://www.linkedin.com/in/gandhi-jafta-36005a208/)
+
+*Doctoral*
+
+[Michelle de Klerk (2022-2024)](https://www.linkedin.com/in/michelle-de-klerk-b977605a/)
+
+**WITS**
+
+*Honours*
+
+[Miguel Torres (2023)](https://linkedin.com/in/miguel-torres-51283a186/)
+
+[Odey Mofokeng (2025)](https://www.linkedin.com/in/odey-mofokeng-94b043238/?originalSubdomain=za)
+
+[Gabriel Gordon (2025)](https://www.linkedin.com/in/gabriel-gordon-608591152/)
+
+[Dylan Kruger (2025)](https://www.linkedin.com/in/gabriel-gordon-608591152/)
+
+*Masters*
+
+[Elona Mbayise (2022)](https://www.linkedin.com/in/elona-m-912467185/)
+
+[Miguel Torres (2024)](https://linkedin.com/in/miguel-torres-51283a186/)

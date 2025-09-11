@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 6ea256ff-a4bf-480e-8edc-30c0d13766a1
+      url: 'https://raymandoc.quarto.pub/sepimod'

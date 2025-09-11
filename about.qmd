@@ -1,0 +1,5 @@
+---
+title: "About"
+---
+
+The team consists of experts from Universities and Science Councils within South Africa that have all had close collaboration with government bodies and local municipalities during the COVID-19 pandemic in order to provide scientific outputs for decision support. The group has formed a consortium called SEPIMOD (Spatial EPIdemiological MODelling). The team has expertise in statistical modelling, spatial analysis, GIS, programming, and epidemiology and has been extended to include experts in microbiology and wastewater analysis, climate sciences expertise, logistics and supply chain modelling, systems modelling and simulation, and veterinary science, in order to provide a full skill set for tackling spatial epidemiological research. 

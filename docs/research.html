@@ -175,6 +175,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Inger Fabris-Rotelli, Jenny Holloway, Zaid Kimmie, Sally Archibald, Pravesh Debba, Raeesa Manjoo-Docrat, Alize le Roux, Nontembeko Dudeni-Tlhone, Charl Janse van Rensburg, Renate Thiede, Nada Abdelatif, Arminn Potgieter, Sibusisiwe Makhanya, <a href="https://jdssv.org/index.php/jdssv/article/view/46">A Spatial SEIR Model for COVID-19 in South Africa</a>, Journal of Data Science, Statistics and Visualisation, 2(7), 14–45., 2022.</p></li>
 <li><p>Claudia Dresselhaus, Inger Fabris-Rotelli, Raeesa Manjoo-Docrat, Warren Brettenny, Jenny Holloway, Nada Abdelatif, Renate Thiede, Pravesh Debba, Nontembeko Dudeni-Tlhone, <a href="https://www.sciencedirect.com/science/article/pii/S2211675323000672">A spatial model with vaccinations for COVID-19 in South Africa</a>, Spatial Statistics, November 2023.</p></li>
 <li><p>Manjoo-Docrat, R., Abdelatif, N., Holloway, J., Dudeni-Tlhone, N., Dresselhaus, C., Mbayise, E., van Rensburg, C.J., Fabris-Rotelli, I., Debba, P. and Makhanya, S., 2025. <a href="https://www.cell.com/heliyon/fulltext/S2405-8440(25)01552-X">Spatial age-stratified epidemiological model with applications to South African COVID-19 pandemic.</a> <em>Heliyon</em>, <em>11</em>(11).</p></li>
+<li><p>Warren Brettenny, Jenny Holloway, Inger Fabris-Rotelli, Nontembeko Dudeni-Tlhone, Nada Abdelatif, Wouter le Roux, Raeesa Manjoo-Docrat, Pravesh Debba, 2026. <a href="https://link.springer.com/article/10.1007/s13370-025-01401-x">A phenomenological methodology for wave detection in epidemics</a>. <em>Afrika Matematika</em>, <em>37</em>(1), p.3.</p></li>
+<li><p>Torres, Miguel, et al., 2026. <a href="https://www.sciencedirect.com/science/article/pii/S2211675326000606">Modelling of spatially misaligned wastewater-based surveillance data</a>. <em>Spatial Statistics</em>, p.101012.</p></li>
 </ol>
 </div>
 </div>
@@ -279,7 +281,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/raymandoc\.quarto\.pub\/sepimod");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

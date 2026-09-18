@@ -34,6 +34,10 @@ title: "Research"
 4.  Claudia Dresselhaus, Inger Fabris-Rotelli, Raeesa Manjoo-Docrat, Warren Brettenny, Jenny Holloway, Nada Abdelatif, Renate Thiede, Pravesh Debba, Nontembeko Dudeni-Tlhone, [A spatial model with vaccinations for COVID-19 in South Africa](https://www.sciencedirect.com/science/article/pii/S2211675323000672), Spatial Statistics, November 2023.
 
 5.  Manjoo-Docrat, R., Abdelatif, N., Holloway, J., Dudeni-Tlhone, N., Dresselhaus, C., Mbayise, E., van Rensburg, C.J., Fabris-Rotelli, I., Debba, P. and Makhanya, S., 2025. [Spatial age-stratified epidemiological model with applications to South African COVID-19 pandemic.](https://www.cell.com/heliyon/fulltext/S2405-8440(25)01552-X) *Heliyon*, *11*(11).
+
+6.  Warren Brettenny, Jenny Holloway, Inger Fabris-Rotelli, Nontembeko Dudeni-Tlhone, Nada Abdelatif, Wouter le Roux, Raeesa Manjoo-Docrat, Pravesh Debba, 2026. [A phenomenological methodology for wave detection in epidemics](https://link.springer.com/article/10.1007/s13370-025-01401-x). *Afrika Matematika*, *37*(1), p.3.
+
+7.  Torres, Miguel, et al., 2026. [Modelling of spatially misaligned wastewater-based surveillance data](https://www.sciencedirect.com/science/article/pii/S2211675326000606). *Spatial Statistics*, p.101012.
 :::
 
 ## Funding

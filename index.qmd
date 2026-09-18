@@ -1,10 +1,20 @@
 ---
 title: "HOME"
 image: logo.enc
-toc: true
-about: 
+toc: false
+about:
   template: marquee
   image-width: 20em
 ---
 
+::: {.hero-lede}
 SEPIMOD, the Spatial Epidemiological Modelling Group, emerged in response to the COVID-19 outbreak in South Africa, uniting experts in spatial and epidemiological modeling from esteemed institutions such as the [University of Pretoria](https://www.up.ac.za/), the [University of Witwatersrand (WITS)](https://www.wits.ac.za/), the [Council for Scientific and Industrial Research (CSIR)](https://www.csir.co.za/), the [South African Medical Research Council (SAMRC)](https://www.samrc.ac.za/), and the [International Business Machines Corporation (IBM)](https://www.ibm.com/planetwide/za/). This collective endeavor was driven by the need for COVID-19 modeling that intricately considers spatial factors. Since then, SEPIMOD, has worked on various spatial modelling work related to COVID-19. Beyond its immediate mission, SEPIMOD is dedicated to enhancing research capabilities within South Africa and the broader African context. The group actively engages post-graduate students to nurture expertise in statistical and epidemiological spatial modeling, while forging collaborative relationships with institutions and researchers for a multifaceted impact.
+:::
+
+::: {.partner-row}
+[University of Pretoria](https://www.up.ac.za/){.partner-pill}
+[University of the Witwatersrand](https://www.wits.ac.za/){.partner-pill}
+[CSIR](https://www.csir.co.za/){.partner-pill}
+[SAMRC](https://www.samrc.ac.za/){.partner-pill}
+[IBM](https://www.ibm.com/planetwide/za/){.partner-pill}
+:::

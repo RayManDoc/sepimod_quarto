@@ -1,0 +1,247 @@
+/*-- scss:defaults --*/
+
+// SEPIMOD brand palette, drawn from the logo's five rays
+$sa-red:   #DE3831;
+$sa-gold:  #FFB612;
+$sa-green: #007A4D;
+$sa-blue:  #00205B;
+$sa-black: #171717;
+
+$primary:   $sa-blue;
+$secondary: $sa-green;
+$success:   $sa-green;
+$info:      $sa-blue;
+$warning:   $sa-gold;
+$danger:    $sa-red;
+
+$body-bg:      #fbfaf7;
+$body-color:   #262626;
+$link-color:   $sa-blue;
+
+$navbar-bg: #ffffff;
+$navbar-fg: $sa-black;
+$navbar-hl: $sa-red;
+
+$headings-font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+$toc-color: $sa-blue;
+$toc-active-border: $sa-gold;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap');
+
+:root {
+  --sa-red: #{$sa-red};
+  --sa-gold: #{$sa-gold};
+  --sa-green: #{$sa-green};
+  --sa-blue: #{$sa-blue};
+  --sa-black: #{$sa-black};
+  --sa-rays: linear-gradient(90deg, var(--sa-red), var(--sa-gold), var(--sa-green), var(--sa-blue));
+}
+
+body {
+  letter-spacing: 0.01em;
+}
+
+// Thin ray-coloured band under the navbar, echoing the logo
+.navbar {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  border-bottom: 3px solid transparent;
+  border-image: var(--sa-rays) 1;
+}
+
+.navbar-brand {
+  font-family: $headings-font-family;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.navbar .nav-link.active {
+  color: var(--sa-red) !important;
+  font-weight: 600;
+}
+
+h1.title {
+  font-weight: 700;
+}
+
+h2 {
+  position: relative;
+  margin-top: 2.4em;
+  padding-bottom: 0.4em;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--sa-rays);
+}
+
+a {
+  text-decoration-thickness: 1px;
+}
+
+a:hover {
+  color: var(--sa-red);
+}
+
+// -------- Homepage hero --------
+.hero-lede {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #3a3a3a;
+  max-width: 60rem;
+}
+
+.partner-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1.6rem 0 2rem;
+}
+
+.partner-pill {
+  display: inline-block;
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid #e4e1da;
+  font-size: 0.85rem;
+  color: var(--sa-blue);
+  text-decoration: none;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.partner-pill:hover {
+  border-color: var(--sa-gold);
+  color: var(--sa-red);
+  transform: translateY(-1px);
+}
+
+// -------- Member cards --------
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.75rem;
+  margin-top: 1.75rem;
+}
+
+.member-card {
+  background: #ffffff;
+  border: 1px solid #eae7e0;
+  border-radius: 16px;
+  padding: 1.4rem 1.4rem 1.1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.member-card:hover {
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  transform: translateY(-3px);
+}
+
+.member-card-header {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.member-photo {
+  width: 86px;
+  height: 86px;
+  min-width: 86px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--sa-gold);
+}
+
+.member-name {
+  margin: 0 0 0.2rem;
+  font-size: 1.08rem;
+  line-height: 1.3;
+}
+
+.member-affil {
+  color: #666;
+  font-size: 0.83rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.member-card details {
+  margin-top: 0.7rem;
+}
+
+.member-card details > summary {
+  cursor: pointer;
+  color: var(--sa-blue);
+  font-weight: 600;
+  font-size: 0.85rem;
+  list-style: none;
+}
+
+.member-card details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.member-card details > summary::before {
+  content: "+ ";
+  color: var(--sa-red);
+  font-weight: 700;
+}
+
+.member-card details[open] > summary::before {
+  content: "\2212 ";
+}
+
+.member-card details p {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin-top: 0.7rem;
+  color: #333;
+}
+
+.member-card .member-email {
+  display: inline-block;
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
+
+// -------- Research page tabset --------
+.panel-tabset {
+  margin-top: 1rem;
+}
+
+.panel-tabset .nav-tabs {
+  border-bottom: 2px solid #eae7e0;
+}
+
+.panel-tabset .nav-tabs .nav-link {
+  border: none;
+  color: #555;
+  font-weight: 500;
+}
+
+.panel-tabset .nav-tabs .nav-link.active {
+  color: var(--sa-blue);
+  border-bottom: 3px solid var(--sa-gold);
+  font-weight: 600;
+  background: transparent;
+}
+
+.research-list li,
+.students-list li {
+  margin-bottom: 0.85rem;
+  line-height: 1.6;
+}
+
+.funding-list li {
+  margin-bottom: 0.7rem;
+}

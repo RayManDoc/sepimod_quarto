@@ -125,6 +125,128 @@ a:hover {
   transform: translateY(-1px);
 }
 
+.tagline {
+  font-family: $headings-font-family;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--sa-blue);
+  margin: -0.5rem 0 1.2rem;
+}
+
+// -------- Stat strip --------
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.25rem;
+  margin: 2.2rem 0 2.6rem;
+}
+
+.stat-tile {
+  text-align: center;
+  padding: 1.4rem 1rem;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid #eae7e0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.stat-number {
+  display: block;
+  font-family: $headings-font-family;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--sa-red);
+  line-height: 1.1;
+}
+
+.stat-label {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.85rem;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+// -------- Call-to-action row --------
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin: 1.6rem 0 2.4rem;
+}
+
+.cta-row .btn {
+  border-radius: 999px;
+  padding: 0.55rem 1.4rem;
+  font-weight: 600;
+}
+
+.cta-row .btn-primary {
+  background: var(--sa-blue);
+  border-color: var(--sa-blue);
+}
+
+.cta-row .btn-primary:hover {
+  background: var(--sa-red);
+  border-color: var(--sa-red);
+}
+
+.cta-row .btn-outline-secondary {
+  color: var(--sa-blue);
+  border-color: var(--sa-blue);
+}
+
+.cta-row .btn-outline-secondary:hover {
+  background: var(--sa-blue);
+  border-color: var(--sa-blue);
+  color: #fff;
+}
+
+// -------- Partner logo strip --------
+.partner-logos-section {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eae7e0;
+}
+
+.partner-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.partner-logo-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 84px;
+  background: #ffffff;
+  border: 1px solid #eae7e0;
+  border-radius: 14px;
+  padding: 1rem 1.4rem;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.partner-logo-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.partner-logo-card.dark-chip {
+  background: var(--sa-blue);
+}
+
+.partner-logo-card img {
+  max-width: 140px;
+  max-height: 50px;
+  object-fit: contain;
+}
+
 // -------- Member cards --------
 .members-grid {
   display: grid;

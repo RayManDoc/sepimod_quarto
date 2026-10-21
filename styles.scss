@@ -367,3 +367,64 @@ a:hover {
 .funding-list li {
   margin-bottom: 0.7rem;
 }
+
+// -------- Apps page --------
+.apps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.75rem;
+  margin-top: 1.75rem;
+}
+
+.app-card {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1px solid #eae7e0;
+  border-top: 4px solid var(--sa-gold);
+  border-radius: 16px;
+  padding: 1.4rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.app-card:nth-child(3n + 2) { border-top-color: var(--sa-green); }
+.app-card:nth-child(3n + 3) { border-top-color: var(--sa-red); }
+
+.app-card:hover {
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  transform: translateY(-3px);
+}
+
+.app-card h3 {
+  margin-top: 0.5rem;
+}
+
+.app-card p {
+  font-size: 0.93rem;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.app-card .btn {
+  align-self: flex-start;
+  border-radius: 999px;
+  padding: 0.45rem 1.3rem;
+  font-weight: 600;
+  background: var(--sa-blue);
+  border-color: var(--sa-blue);
+}
+
+.app-card .btn:hover {
+  background: var(--sa-red);
+  border-color: var(--sa-red);
+}
+
+.app-tag {
+  align-self: flex-start;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--sa-blue);
+}

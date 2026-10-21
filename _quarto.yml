@@ -13,6 +13,7 @@ website:
         text: Home
       - members.qmd
       - research.qmd
+      - apps.qmd
       - Events.qmd
 
 format:

@@ -1,0 +1,39 @@
+---
+title: "Apps"
+---
+
+Interactive tools developed by the SEPIMOD group and its students. Each app opens in a new tab.
+
+<div class="apps-grid">
+
+<div class="app-card">
+<span class="app-tag">Antimicrobial resistance</span>
+
+### CLIQUE
+
+Conditional dependencies in household antimicrobial resistance. Explores spatial variable selection in mixed graphical models using household stool samples from 162 households in the uMgungundlovu District, KwaZulu-Natal, to show how antimicrobial resistance markers relate to water, sanitation, hygiene and antibiotic-use factors.
+
+<a class="btn btn-primary" href="https://marquispretorius-clique.share.connect.posit.cloud" target="_blank" rel="noopener">Open app</a>
+</div>
+
+<div class="app-card">
+<span class="app-tag">Wastewater surveillance</span>
+
+### GeoWasteTracker
+
+A spatial wastewater-based epidemiology dashboard for the Olifantsfontein and Vlakplaats catchments in Ekurhuleni. It combines real ERWAT pathogen measurements with a simulated sub-place dataset to demonstrate a full spatial-statistical workflow: choropleth maps, Global and Local Moran's I (LISA) cluster detection, and temporal trends.
+
+<a class="btn btn-primary" href="https://abongile-shinyapp.shinyapps.io/shinyapp/" target="_blank" rel="noopener">Open app</a>
+</div>
+
+<div class="app-card">
+<span class="app-tag">COVID-19 modelling</span>
+
+### Under the Weather
+
+Wastewater-based surveillance of COVID-19 in Ekurhuleni. Shows how cases for 470 small areas (sub-places) can be estimated from wastewater measured at eight treatment plants, bridging spatially misaligned data and highlighting hot spots.
+
+<a class="btn btn-primary" href="https://esthermazarura-under-the-weather-ekurhuleni-wbe.share.connect.posit.cloud/" target="_blank" rel="noopener">Open app</a>
+</div>
+
+</div>

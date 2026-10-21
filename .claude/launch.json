@@ -6,6 +6,12 @@
       "runtimeExecutable": "quarto",
       "runtimeArgs": ["preview", "--no-browser", "--port", "4321"],
       "port": 4321
+    },
+    {
+      "name": "raeesa-site",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "4322", "--directory", "C:/Users/A0039120/Documents/GitHub/raeesa-website-src/_site"],
+      "port": 4322
     }
   ]
 }

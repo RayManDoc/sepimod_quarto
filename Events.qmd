@@ -8,6 +8,8 @@ title: "Events"
 
 2.  Workshop on Epidemiological Modelling, 22 September 2021 organised by Dr Raeesa Docrat,  who obtained funding for and planned the online workshop.  
 
+3.  Writing retreat, 22 -- 24 September 2025.
+
 **Events attended by the research group:**
 
 1.  South African Statistics Association Conference, Stellenbosch, December 2021.
@@ -34,5 +36,3 @@ title: "Events"
 **Upcoming events:**
 
 1.  [Spatio-Stochastic Modelling of Infectious Diseases Using Compartmental Models](https://sasaconference2026.org/workshops.html), SEPIMOD pre-conference workshop at the South African Statistical Association (SASA) Conference, morning of Tuesday 24 November 2026 (conference 23 -- 27 November 2026, Birchwood Hotel, Boksburg; hosted by the University of the Witwatersrand). This half-day workshop introduces deterministic and stochastic compartmental models (e.g. SIR/SEIR) from a statistical perspective, covering model specification, inference, spatial extensions through metapopulation and hierarchical frameworks, and a COVID-19 case study on model fitting, forecasting and uncertainty quantification. Led by Dr Raeesa Manjoo-Docrat, with facilitators Jenny Holloway, Nontembeko Dudeni-Tlhone, Nada Abdelatif, Inger Fabris-Rotelli and Miguel Torres.
-
-Writing retreat 22-24 September 2025

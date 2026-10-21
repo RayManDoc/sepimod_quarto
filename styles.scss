@@ -428,3 +428,90 @@ a:hover {
   letter-spacing: 0.06em;
   color: var(--sa-blue);
 }
+
+// -------- Extra colour --------
+.quarto-title-block:not(.about-contents .quarto-title-block) {
+  margin: 0 0 1.5rem;
+  padding: 1.6rem 2rem 1.4rem;
+  border-radius: 16px;
+  color: #fff;
+  background: linear-gradient(115deg, var(--sa-blue) 0%, #0b4a7a 55%, var(--sa-green) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.quarto-title-block:not(.about-contents .quarto-title-block)::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 5px;
+  background: var(--sa-rays);
+}
+
+.quarto-title-block:not(.about-contents .quarto-title-block) h1.title {
+  color: #fff;
+  margin: 0;
+}
+
+h2 {
+  color: var(--sa-blue);
+}
+
+.stats-row .stat-tile {
+  border-top: 5px solid var(--sa-red);
+}
+.stats-row .stat-tile:nth-child(2) { border-top-color: var(--sa-gold); }
+.stats-row .stat-tile:nth-child(3) { border-top-color: var(--sa-green); }
+.stats-row .stat-tile:nth-child(4) { border-top-color: var(--sa-blue); }
+.stats-row .stat-tile:nth-child(2) .stat-number { color: #b87f00; }
+.stats-row .stat-tile:nth-child(3) .stat-number { color: var(--sa-green); }
+.stats-row .stat-tile:nth-child(4) .stat-number { color: var(--sa-blue); }
+
+.member-card:nth-child(5n + 1) .member-photo { border-color: var(--sa-gold); }
+.member-card:nth-child(5n + 2) .member-photo { border-color: var(--sa-red); }
+.member-card:nth-child(5n + 3) .member-photo { border-color: var(--sa-green); }
+.member-card:nth-child(5n + 4) .member-photo { border-color: var(--sa-blue); }
+.member-card:nth-child(5n + 5) .member-photo { border-color: var(--sa-black); }
+.member-card {
+  border-top: 4px solid var(--sa-gold);
+}
+.member-card:nth-child(5n + 2) { border-top-color: var(--sa-red); }
+.member-card:nth-child(5n + 3) { border-top-color: var(--sa-green); }
+.member-card:nth-child(5n + 4) { border-top-color: var(--sa-blue); }
+.member-card:nth-child(5n + 5) { border-top-color: var(--sa-black); }
+
+.panel-tabset .nav-tabs .nav-item:nth-child(1) .nav-link.active { border-bottom-color: var(--sa-red); }
+.panel-tabset .nav-tabs .nav-item:nth-child(2) .nav-link.active { border-bottom-color: var(--sa-gold); }
+.panel-tabset .nav-tabs .nav-item:nth-child(3) .nav-link.active { border-bottom-color: var(--sa-green); }
+.panel-tabset .nav-tabs .nav-item:nth-child(4) .nav-link.active { border-bottom-color: var(--sa-blue); }
+
+.partner-logos-section {
+  background: linear-gradient(180deg, #f3efe6 0%, #fbfaf7 100%);
+  border-top: 4px solid transparent;
+  border-image: var(--sa-rays) 1;
+  border-radius: 0;
+  padding: 2rem 1.5rem 2.2rem;
+}
+
+.cta-row .btn-outline-secondary {
+  border-color: var(--sa-green);
+  color: var(--sa-green);
+}
+.cta-row .btn-outline-secondary:hover {
+  background: var(--sa-green);
+  border-color: var(--sa-green);
+}
+
+.nav-footer {
+  margin-top: 3rem;
+  padding: 1.4rem 1rem;
+  background: var(--sa-blue);
+  color: #fff;
+  border-top: 5px solid transparent !important;
+  border-image: var(--sa-rays) 1;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+}
+.nav-footer a { color: var(--sa-gold); }

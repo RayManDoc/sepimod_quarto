@@ -15,6 +15,8 @@ website:
       - research.qmd
       - apps.qmd
       - Events.qmd
+  page-footer:
+    center: "SEPIMOD · Spatial Epidemiological Modelling Group"
 
 format:
   html:

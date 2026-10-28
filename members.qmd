@@ -173,7 +173,8 @@ Interest areas: Spatial modelling and the linkage between climate and environmen
 #### Raeesa Manjoo-Docrat {.member-name}
 
 <div class="member-affil">
-School of Statistics and Actuarial Sciences, University of the Witwatersrand
+School of Statistics and Actuarial Sciences, University of the Witwatersrand<br>
+<a href="https://raymandoc.github.io/raeesa-website/">Personal website</a>
 </div>
 </div>
 </div>
@@ -181,7 +182,7 @@ School of Statistics and Actuarial Sciences, University of the Witwatersrand
 <details>
 <summary>Read biography</summary>
 
-[Dr. Raeesa Manjoo-Docrat](https://www.linkedin.com/in/raeesa-docrat-88228bb1/) is a dedicated lecturer at the [University of the Witwatersrand](https://scholar.google.com/citations?user=nqGypBUAAAAJ&hl=en) since 2018, with specialised expertise in applied and spatial statistics, as well as survival analysis. She holds a BSc in Mathematics, a Postgraduate Diploma in Actuarial Sciences and Mathematical Statistics, and dual Honors in Mathematics and Statistics, where she distinguished herself by earning the prestigious Liberty Medal as the top Statistics Honours student. Raeesa completed her MSc with distinction in 2018, with a research focus on stochastic processes, and went on to achieve a PhD in the spatio-stochastic modeling of infectious diseases. Following this, she pursued a post-doctoral fellowship at Johns Hopkins University in the United States, where she focused on modeling tuberculosis spread.
+[Dr. Raeesa Manjoo-Docrat](https://www.linkedin.com/in/raeesa-docrat-88228bb1/) is a Senior Lecturer at the [University of the Witwatersrand](https://www.wits.ac.za), where she has taught since 2018, with specialised expertise in applied and spatial statistics, as well as survival analysis. She holds a BSc in Mathematics, a Postgraduate Diploma in Actuarial Sciences and Mathematical Statistics, and dual Honors in Mathematics and Statistics, where she distinguished herself by earning the prestigious Liberty Medal as the top Statistics Honours student. Raeesa completed her MSc with distinction in 2018, with a research focus on stochastic processes, and went on to achieve a PhD in the spatio-stochastic modeling of infectious diseases. Following this, she pursued a post-doctoral fellowship at Johns Hopkins University in the United States, where she focused on modeling tuberculosis spread.
 
 Her research interests are centered on the advanced modelling of disease spread and the innovative application of spatial statistics. At Wits, Dr. Manjoo-Docrat is deeply committed to education, lecturing both undergraduate and postgraduate courses in statistics and related fields. Beyond the classroom, she actively supervises postgraduate research, guiding students in exploring novel approaches to infectious disease modeling and statistical applications.
 
